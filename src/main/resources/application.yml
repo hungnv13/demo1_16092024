@@ -1,0 +1,13 @@
+banks:
+  bankList:
+    - bankCode: VNPAY
+      privateKey: ghffffffffff
+    - bankCode: BIDV
+      privateKey: jjjjjjjj
+
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
