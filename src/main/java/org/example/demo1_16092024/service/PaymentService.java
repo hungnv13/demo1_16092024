@@ -24,13 +24,13 @@ public class PaymentService {
 
     public PaymentResponse processPayment(PaymentRequest request, BankConfig bankConfig) {
         try {
-            // Validate input fields
+
             if (!validateFields(request)) {
                 logger.info("Validation failed: Invalid input data");
                 return buildErrorResponse(PaymentErrorCode.INVALID_INPUT);
             }
 
-            // Check if bankCode exists in configuration
+
             Optional<BankConfig.Bank> bankOptional = findBankByCode(request.getBankCode(), bankConfig);
             if (!bankOptional.isPresent()) {
                 logger.info("Bank code not found: {}", request.getBankCode());
@@ -39,21 +39,21 @@ public class PaymentService {
 
             BankConfig.Bank bank = bankOptional.get();
 
-            // Validate checksum
+
             String calculatedCheckSum = calculateRequestCheckSum(request, bank.getPrivateKey());
             if (calculatedCheckSum.equals(request.getCheckSum())) {
                 logger.info("Invalid checksum: {}", request.getCheckSum());
                 return buildErrorResponse(PaymentErrorCode.INVALID_CHECKSUM);
             }
 
-            // Set data in Redis
+
             boolean isSetSuccessful = putDataRedis.setData(request.getBankCode(), request.getTokenKey(), String.valueOf(request));
             if (!isSetSuccessful) {
                 logger.info("Failed to set data in Redis for tokenKey: {}", request.getTokenKey());
                 return buildErrorResponse(PaymentErrorCode.REDIS_SET_FAILED);
             }
 
-            // Successful response
+
             return buildSuccessResponse(PaymentErrorCode.SUCCESS, bank.getPrivateKey());
 
         } catch (NoSuchAlgorithmException e) {

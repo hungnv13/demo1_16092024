@@ -1,5 +1,10 @@
 package org.example.demo1_16092024.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public enum PaymentErrorCode {
     SUCCESS("00", "Success"),
     INVALID_INPUT("01", "Invalid Input Data"),
@@ -10,16 +15,4 @@ public enum PaymentErrorCode {
     private final String code;
     private final String message;
 
-    PaymentErrorCode(String code, String message) {
-        this.code = code;
-        this.message = message;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public String getMessage() {
-        return message;
-    }
 }
