@@ -29,11 +29,7 @@ public class PaymentController {
     @PostMapping("/process")
     public ResponseEntity<PaymentResponse> processPayment(@Valid @RequestBody PaymentRequest request) {
         logger.info("Received payment request");
-
-        // Gọi PaymentService để xử lý logic
         PaymentResponse response = paymentService.processPayment(request, bankConfig);
-
-        // Trả về response từ PaymentService
         return ResponseEntity.ok(response);
     }
 }
