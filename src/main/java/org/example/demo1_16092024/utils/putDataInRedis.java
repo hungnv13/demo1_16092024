@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.service;
+package org.example.demo1_16092024.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,7 +7,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RedisService {
+public class putDataInRedis {
     @Autowired StringRedisTemplate stringRedisTemplate;
     @Autowired ObjectMapper objectMapper;
 
