@@ -10,6 +10,7 @@ import java.util.UUID;
 public class PaymentUtils {
     private static final DateTimeFormatter TIMESTAMP_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
     private static final String SHA256 = "SHA-256";
+    private static final char ZERO_CHAR = '0';
 
     public static String sha256(String data) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance(SHA256);
@@ -18,7 +19,7 @@ public class PaymentUtils {
         for (byte b : hash) {
             String hex = Integer.toHexString(0xff & b);
             if (1 == hex.length()) {
-                hexString.append('0');
+                hexString.append(ZERO_CHAR);
             }
             hexString.append(hex);
         }

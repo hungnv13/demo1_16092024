@@ -12,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
 import java.util.Optional;
 
 @Service
@@ -22,37 +21,37 @@ public class PaymentService {
 
     @Autowired putDataInRedis putDataRedis;
 
+    @Autowired CheckSumService checkSumService;
+
+    @Autowired ValidationService validationService;
+
     public PaymentResponse processPayment(PaymentRequest request, BankConfig bankConfig) {
         try {
 
-            if (!validateFields(request)) {
-                logger.info("Validation failed: Invalid input data");
+            if (!validationService.validateFields(request)) {
+                logger.error("Validation failed: Invalid input data");
                 return buildErrorResponse(PaymentErrorCode.INVALID_INPUT);
             }
 
-
             Optional<BankConfig.Bank> bankOptional = findBankByCode(request.getBankCode(), bankConfig);
             if (!bankOptional.isPresent()) {
-                logger.info("Bank code not found: {}", request.getBankCode());
+                logger.error("Bank code not found: {}", request.getBankCode());
                 return buildErrorResponse(PaymentErrorCode.BANK_CODE_NOT_FOUND);
             }
 
             BankConfig.Bank bank = bankOptional.get();
 
-
-            String calculatedCheckSum = calculateRequestCheckSum(request, bank.getPrivateKey());
+            String calculatedCheckSum = checkSumService.calculateRequestCheckSum(request, bank.getPrivateKey());
             if (calculatedCheckSum.equals(request.getCheckSum())) {
-                logger.info("Invalid checksum: {}", request.getCheckSum());
+                logger.error("Invalid checksum: {}", request.getCheckSum());
                 return buildErrorResponse(PaymentErrorCode.INVALID_CHECKSUM);
             }
 
-
             boolean isSetSuccessful = putDataRedis.setData(request.getBankCode(), request.getTokenKey(), String.valueOf(request));
             if (!isSetSuccessful) {
-                logger.info("Failed to set data in Redis for tokenKey: {}", request.getTokenKey());
+                logger.error("Failed to set data in Redis for tokenKey: {}", request.getTokenKey());
                 return buildErrorResponse(PaymentErrorCode.REDIS_SET_FAILED);
             }
-
 
             return buildSuccessResponse(PaymentErrorCode.SUCCESS, bank.getPrivateKey());
 
@@ -65,80 +64,10 @@ public class PaymentService {
         }
     }
 
-    private boolean validateFields(PaymentRequest request) {
-        return areFieldsValid(
-                request.getTokenKey(),
-                request.getApiID(),
-                request.getMobile(),
-                request.getBankCode(),
-                request.getAccountNo(),
-                request.getPayDate(),
-                request.getAdditionalData(),
-                request.getDebitAmount(),
-                request.getRespCode(),
-                request.getRespDesc(),
-                request.getTraceTransfer(),
-                request.getMessageType(),
-                request.getCheckSum(),
-                request.getOrderCode(),
-                request.getUserName(),
-                request.getRealAmount(),
-                request.getPromotionCode()
-        );
-    }
-
-    private boolean areFieldsValid(Object... fields) {
-        return Arrays.stream(fields)
-                .allMatch(this::isValidField);
-    }
-
-    private boolean isValidField(Object field) {
-        if (field instanceof String) {
-            return field != null && !((String) field).trim().isEmpty();
-        } else if (field instanceof Integer) {
-            return field != null;
-        }
-        return field != null;
-    }
-
-
     private Optional<BankConfig.Bank> findBankByCode(String bankCode, BankConfig bankConfig) {
         return bankConfig.getBankList().stream()
                 .filter(b -> b.getBankCode().equals(bankCode))
                 .findFirst();
-    }
-
-    private String calculateRequestCheckSum(PaymentRequest request, String privateKey) throws NoSuchAlgorithmException {
-        String data = new StringBuilder()
-                .append(request.getMobile())
-                .append(request.getBankCode())
-                .append(request.getAccountNo())
-                .append(request.getPayDate())
-                .append(request.getDebitAmount())
-                .append(request.getRespCode())
-                .append(request.getTraceTransfer())
-                .append(request.getMessageType())
-                .append(privateKey)
-                .toString();
-
-        return sha256(data);
-    }
-
-    private String calculateResponseCheckSum(String code, String message, String responseId, String responseTime, String privateKey) throws NoSuchAlgorithmException {
-        String data = new StringBuilder()
-                .append(code)
-                .append(message)
-                .append(responseId)
-                .append(responseTime)
-                .append(privateKey)
-                .toString();
-
-        return sha256(data);
-    }
-
-
-    private String sha256(String data) throws NoSuchAlgorithmException {
-        return PaymentUtils.sha256(data);
     }
 
     private PaymentResponse buildErrorResponse(PaymentErrorCode errorCode) {
@@ -148,7 +77,7 @@ public class PaymentService {
     private PaymentResponse buildSuccessResponse(PaymentErrorCode errorCode, String privateKey) throws NoSuchAlgorithmException {
         String responseId = generateRandomId();
         String responseTime = getCurrentTimestamp();
-        String responseCheckSum = calculateResponseCheckSum(errorCode.getCode(), errorCode.getMessage(), responseId, responseTime, privateKey);
+        String responseCheckSum = checkSumService.calculateResponseCheckSum(errorCode.getCode(), errorCode.getMessage(), responseId, responseTime, privateKey);
         return new PaymentResponse(errorCode.getCode(), errorCode.getMessage(), responseId, responseTime, responseCheckSum);
     }
 
