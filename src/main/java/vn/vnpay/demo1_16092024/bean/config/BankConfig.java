@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.config;
+package vn.vnpay.demo1_16092024.bean.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.dto;
+package vn.vnpay.demo1_16092024.bean.dto;
 
 import lombok.Getter;
 import lombok.Setter;

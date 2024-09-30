@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.dto;
+package vn.vnpay.demo1_16092024.bean.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,7 @@ public enum PaymentErrorCode {
     INVALID_INPUT("01", "Invalid Input Data"),
     BANK_CODE_NOT_FOUND("02", "Bank Code not found"),
     INVALID_CHECKSUM("03", "Invalid CheckSum"),
-    REDIS_SET_FAILED("99", "Redis Set Failed");
+    SYSTEM_ERROR("99", "System error"),;
 
     private final String code;
     private final String message;

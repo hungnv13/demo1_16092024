@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.utils;
+package vn.vnpay.demo1_16092024.bean.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -7,11 +7,11 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
-public class putDataInRedis {
+public class RedisUtils {
     @Autowired StringRedisTemplate stringRedisTemplate;
     @Autowired ObjectMapper objectMapper;
 
-    public boolean setData(String bankCode, String tokenKey, String data){
+    public boolean putData(String bankCode, String tokenKey, String data){
         try{
             String jsonData = objectMapper.writeValueAsString(data);
             stringRedisTemplate.opsForHash().put(tokenKey, bankCode, jsonData);

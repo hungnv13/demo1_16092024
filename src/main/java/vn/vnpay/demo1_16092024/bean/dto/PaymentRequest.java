@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.dto;
+package vn.vnpay.demo1_16092024.bean.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

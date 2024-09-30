@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.exception;
+package vn.vnpay.demo1_16092024.bean.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package org.example.demo1_16092024.controller;
+package vn.vnpay.demo1_16092024.bean.controller;
 
 import jakarta.validation.Valid;
-import org.example.demo1_16092024.config.BankConfig;
-import org.example.demo1_16092024.dto.PaymentRequest;
-import org.example.demo1_16092024.dto.PaymentResponse;
-import org.example.demo1_16092024.service.PaymentService;
+import vn.vnpay.demo1_16092024.bean.config.BankConfig;
+import vn.vnpay.demo1_16092024.bean.dto.PaymentRequest;
+import vn.vnpay.demo1_16092024.bean.dto.PaymentResponse;
+import vn.vnpay.demo1_16092024.bean.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

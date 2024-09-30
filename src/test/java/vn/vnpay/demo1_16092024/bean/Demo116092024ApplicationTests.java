@@ -1,4 +1,4 @@
-package org.example.demo1_16092024;
+package vn.vnpay.demo1_16092024.bean;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

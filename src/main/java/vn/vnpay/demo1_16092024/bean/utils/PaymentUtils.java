@@ -1,4 +1,4 @@
-package org.example.demo1_16092024.utils;
+package vn.vnpay.demo1_16092024.bean.utils;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -8,11 +8,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 public class PaymentUtils {
-    private static final DateTimeFormatter TIMESTAMP_FORMATTER = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+    private static final String TIMESTAMP_FORMATTER = "yyyyMMddHHmmss";
     private static final String SHA256 = "SHA-256";
     private static final char ZERO_CHAR = '0';
 
-    public static String sha256(String data) throws NoSuchAlgorithmException {
+    public static String encodeSha256(String data) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance(SHA256);
         byte[] hash = digest.digest(data.getBytes(StandardCharsets.UTF_8));
         StringBuilder hexString = new StringBuilder();
@@ -31,6 +31,6 @@ public class PaymentUtils {
     }
 
     public static String getCurrentTimestamp() {
-        return TIMESTAMP_FORMATTER.format(LocalDateTime.now());
+        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(TIMESTAMP_FORMATTER));
     }
 }

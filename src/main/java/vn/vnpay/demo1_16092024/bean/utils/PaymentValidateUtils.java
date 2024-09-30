@@ -1,13 +1,12 @@
-package org.example.demo1_16092024.service;
+package vn.vnpay.demo1_16092024.bean.utils;
 
-import org.example.demo1_16092024.dto.PaymentRequest;
+import vn.vnpay.demo1_16092024.bean.dto.PaymentRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
 @Service
-public class ValidationService {
-
+public class PaymentValidateUtils {
     public boolean validateFields(PaymentRequest request) {
         return areFieldsValid(
                 request.getTokenKey(),
