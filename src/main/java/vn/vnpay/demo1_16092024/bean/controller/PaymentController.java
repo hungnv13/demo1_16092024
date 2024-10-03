@@ -2,8 +2,8 @@ package vn.vnpay.demo1_16092024.bean.controller;
 
 import jakarta.validation.Valid;
 import vn.vnpay.demo1_16092024.bean.config.BankConfig;
-import vn.vnpay.demo1_16092024.bean.dto.PaymentRequest;
-import vn.vnpay.demo1_16092024.bean.dto.PaymentResponse;
+import vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest;
+import vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse;
 import vn.vnpay.demo1_16092024.bean.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

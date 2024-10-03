@@ -1,10 +1,8 @@
-package vn.vnpay.demo1_16092024.bean.dto;
+package vn.vnpay.demo1_16092024.bean.dto.response;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class PaymentResponse {
     private String code;
     private String message;

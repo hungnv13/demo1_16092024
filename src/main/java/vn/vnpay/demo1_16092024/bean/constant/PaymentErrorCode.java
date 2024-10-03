@@ -1,4 +1,4 @@
-package vn.vnpay.demo1_16092024.bean.dto;
+package vn.vnpay.demo1_16092024.bean.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

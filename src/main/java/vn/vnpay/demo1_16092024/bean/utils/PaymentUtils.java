@@ -1,5 +1,9 @@
 package vn.vnpay.demo1_16092024.bean.utils;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import vn.vnpay.demo1_16092024.bean.constant.PaymentConstant;
+
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -8,21 +12,21 @@ import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 public class PaymentUtils {
-    private static final String TIMESTAMP_FORMATTER = "yyyyMMddHHmmss";
-    private static final String SHA256 = "SHA-256";
-    private static final char ZERO_CHAR = '0';
+    private static final Logger logger = LoggerFactory.getLogger(PaymentUtils.class);
 
     public static String encodeSha256(String data) throws NoSuchAlgorithmException {
-        MessageDigest digest = MessageDigest.getInstance(SHA256);
+        logger.info("Start encoding data using SHA-256 for input: {}", data);
+        MessageDigest digest = MessageDigest.getInstance(PaymentConstant.SHA256);
         byte[] hash = digest.digest(data.getBytes(StandardCharsets.UTF_8));
         StringBuilder hexString = new StringBuilder();
-        for (byte b : hash) {
-            String hex = Integer.toHexString(0xff & b);
+        for (byte hashedByte : hash) {
+            String hex = Integer.toHexString(0xff & hashedByte);
             if (1 == hex.length()) {
-                hexString.append(ZERO_CHAR);
+                hexString.append(PaymentConstant.ZERO_CHAR);
             }
             hexString.append(hex);
         }
+        logger.info("SHA-256 encoding complete. Resulting hash: {}", data);
         return hexString.toString();
     }
 
@@ -31,6 +35,6 @@ public class PaymentUtils {
     }
 
     public static String getCurrentTimestamp() {
-        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(TIMESTAMP_FORMATTER));
+        return LocalDateTime.now().format(DateTimeFormatter.ofPattern(PaymentConstant.TIMESTAMP_FORMATTER));
     }
 }
