@@ -16,7 +16,7 @@ public class PaymentUtils {
 
     public static String encodeSha256(String data) throws NoSuchAlgorithmException {
         logger.info("Start encoding data using SHA-256 for input: {}", data);
-        MessageDigest digest = MessageDigest.getInstance(PaymentConstant.SHA256);
+        MessageDigest digest = MessageDigest.getInstance(PaymentConstant.ENCODESHA256);
         byte[] hash = digest.digest(data.getBytes(StandardCharsets.UTF_8));
         StringBuilder hexString = new StringBuilder();
         for (byte hashedByte : hash) {
