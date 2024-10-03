@@ -103,7 +103,7 @@ public class PaymentService {
 
     private Optional<BankConfig.Bank> findBankByCode(String bankCode, BankConfig bankConfig) {
         return bankConfig.getBankList().stream()
-                .filter(b -> b.getBankCode().equals(bankCode))
+                .filter(bank -> bank.getBankCode().equals(bankCode))
                 .findFirst();
     }
 
