@@ -4,6 +4,7 @@ import jakarta.validation.Valid;
 import vn.vnpay.demo1_16092024.bean.config.BankConfig;
 import vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest;
 import vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse;
+import vn.vnpay.demo1_16092024.bean.service.IPaymentService;
 import vn.vnpay.demo1_16092024.bean.service.PaymentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,14 +21,16 @@ public class PaymentController {
 
     private static final Logger logger = LoggerFactory.getLogger(PaymentController.class);
 
-    @Autowired PaymentService paymentService;
+    @Autowired
+    private IPaymentService iPaymentService;
 
-    @Autowired BankConfig bankConfig;
+    @Autowired
+    private BankConfig bankConfig;
 
     @PostMapping("/process")
     public ResponseEntity<PaymentResponse> processPayment(@Valid @RequestBody PaymentRequest request) {
         logger.info("Received payment request");
-        PaymentResponse response = paymentService.processPayment(request, bankConfig);
+        PaymentResponse response = iPaymentService.processPayment(request, bankConfig);
         return ResponseEntity.ok(response);
     }
 }

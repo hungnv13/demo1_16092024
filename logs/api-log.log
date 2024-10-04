@@ -2762,3 +2762,1048 @@ Caused by: java.lang.ClassNotFoundException: vn.vnpay.demo1_16092024.bean.servic
 2024-10-04 10:57:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-10-04 10:57:34 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=29106882, responseTime=20241004105734, checkSum (truncated)...]
 2024-10-04 10:57:34 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 14:28:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 14:28:09 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 39733 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 14:28:09 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 14:28:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 14:28:09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 14:28:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 14:28:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 14:28:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 14:28:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 507 ms
+2024-10-04 14:28:10 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 14:28:10 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 14:28:10 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 14:28:10 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 14:28:10 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 14:28:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 14:28:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 14:28:10 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.119 seconds (process running for 1.393)
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3042ae73
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1f58fd31
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.b.u.PaymentRequestValidatorUtils - Bank code validation passed: VNPAY
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.b.u.PaymentRequestValidatorUtils - Token key validation passed: 1601353776839FT19310RH6P1
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 75845484, responseTime: 20241004142816
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: a44734fa52431f2b52714c617facff6f39abbdc4ea2f6f947ccdc94ed31286c3
+2024-10-04 14:28:16 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: a44734fa52431f2b52714c617facff6f39abbdc4ea2f6f947ccdc94ed31286c3
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=75845484, responseTime=20241004142816, checkSum (truncated)...]
+2024-10-04 14:28:16 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 15:09:58 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 15:09:58 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 40508 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 15:09:58 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 15:09:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 15:09:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 15:09:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 15:09:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 15:09:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 538 ms
+2024-10-04 15:09:59 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 15:09:59 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 15:09:59 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 15:09:59 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 15:09:59 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 15:09:59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 15:09:59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 15:09:59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 15:09:59 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.185 seconds (process running for 1.519)
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1205a020
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@28f9ec90
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.b.u.PaymentRequestValidatorUtils - Bank code validation passed: VNPAY
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.b.u.PaymentRequestValidatorUtils - Token key validation passed: 1601353776839FT19310RH6P1
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 28129744, responseTime: 20241004151002
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 56eb54c1a98dacd6c339fba3aa62e07c4463100c56661b2b7038ca0a2bc8729a
+2024-10-04 15:10:02 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 56eb54c1a98dacd6c339fba3aa62e07c4463100c56661b2b7038ca0a2bc8729a
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=28129744, responseTime=20241004151002, checkSum (truncated)...]
+2024-10-04 15:10:02 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:16 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 16:03:16 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41361 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:03:16 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:03:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:03:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:03:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:03:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:03:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 521 ms
+2024-10-04 16:03:17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:03:17 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:03:17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:03:17 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:03:17 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:03:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:03:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:03:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:03:17 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.145 seconds (process running for 1.398)
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@77f2105b
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@221da76a
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:20 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=57270750, responseTime=20241004160320, (truncated)...]
+2024-10-04 16:03:20 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=95692713, responseTime=20241004160322, (truncated)...]
+2024-10-04 16:03:22 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=85905258, responseTime=20241004160322, (truncated)...]
+2024-10-04 16:03:22 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:42 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-04 16:03:42 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:03:43 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41361 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:03:43 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:03:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:03:43 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:03:43 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:03:43 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 94 ms
+2024-10-04 16:03:43 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:03:43 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:03:43 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:03:43 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:03:43 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:03:43 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:03:43 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.185 seconds (process running for 27.26)
+2024-10-04 16:03:43 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@14fefdef
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1a390100
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:43 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:43 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 27167979, responseTime: 20241004160344
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 2f0b5da62ef0d681e21c4a793bb05317cafed27cd0c4eaba0f5307597223dc84
+2024-10-04 16:03:44 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 2f0b5da62ef0d681e21c4a793bb05317cafed27cd0c4eaba0f5307597223dc84
+2024-10-04 16:03:44 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:44 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=27167979, responseTime=20241004160344, checkSum (truncated)...]
+2024-10-04 16:03:44 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 36040041, responseTime: 20241004160345
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: b05484ff2d2377c9e1c26bdd3b8ec143d085fa8db23f5850d872ce5e7a282fb0
+2024-10-04 16:03:45 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: b05484ff2d2377c9e1c26bdd3b8ec143d085fa8db23f5850d872ce5e7a282fb0
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=36040041, responseTime=20241004160345, checkSum (truncated)...]
+2024-10-04 16:03:45 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 80622513, responseTime: 20241004160346
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 81595330e982cec8ab01a7db1f6f46275acbe34a54ba15aa1359cc3c13189670
+2024-10-04 16:03:46 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 81595330e982cec8ab01a7db1f6f46275acbe34a54ba15aa1359cc3c13189670
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=80622513, responseTime=20241004160346, checkSum (truncated)...]
+2024-10-04 16:03:46 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 31971383, responseTime: 20241004160347
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 6d8cf3996736bb0c96064c3f0fd44ce3a8ab996828de95a26aa3c4705c301fc4
+2024-10-04 16:03:47 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 6d8cf3996736bb0c96064c3f0fd44ce3a8ab996828de95a26aa3c4705c301fc4
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=31971383, responseTime=20241004160347, checkSum (truncated)...]
+2024-10-04 16:03:47 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 04775057, responseTime: 20241004160348
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 753adede7671d801531b5ccb08784d82578db097a87f32778cd19095fce82957
+2024-10-04 16:03:48 [http-nio-8080-exec-6] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 753adede7671d801531b5ccb08784d82578db097a87f32778cd19095fce82957
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=04775057, responseTime=20241004160348, checkSum (truncated)...]
+2024-10-04 16:03:48 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 64627612, responseTime: 20241004160349
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: f3961074fc2544b8e4be8be20626d7e10652c32587ee8806e92565e0e1350cac
+2024-10-04 16:03:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: f3961074fc2544b8e4be8be20626d7e10652c32587ee8806e92565e0e1350cac
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=64627612, responseTime=20241004160349, checkSum (truncated)...]
+2024-10-04 16:03:49 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 07231130, responseTime: 20241004160350
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 653bc1d9b08375c2d08ca3d13cea2900646f28ff0c4beca5bacb6459a76d2046
+2024-10-04 16:03:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 653bc1d9b08375c2d08ca3d13cea2900646f28ff0c4beca5bacb6459a76d2046
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=07231130, responseTime=20241004160350, checkSum (truncated)...]
+2024-10-04 16:03:50 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Converted request to string: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 95494651, responseTime: 20241004160351
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8784223e43890d37a91ee4a201bb0bc64b6c1a2f48b27e0340cfa4c9f5af146c
+2024-10-04 16:03:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 8784223e43890d37a91ee4a201bb0bc64b6c1a2f48b27e0340cfa4c9f5af146c
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=95494651, responseTime=20241004160351, checkSum (truncated)...]
+2024-10-04 16:03:51 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:08:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 16:08:50 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41497 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:08:50 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:08:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 16:08:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 16:08:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:08:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:08:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:08:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:08:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:08:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:08:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:08:51 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:08:51 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 516 ms
+2024-10-04 16:08:51 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:08:51 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:08:51 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:08:51 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:08:51 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:08:51 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:08:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:08:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:08:51 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.133 seconds (process running for 1.396)
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f1351eb
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ae16109
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to JSON string: {"tokenKey":"1601353776839FT19310RH6P1","apiID":"restPayment","mobile":"0345225630","bankCode":"VNPAY","accountNo":"0001100014211002","payDate":"20200929112923","additionalData":"11","debitAmount":11200,"respCode":"00","respDesc":"SUCCESS","traceTransfer":"FT19310RH6P1","messageType":"1","checkSum":"07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4","orderCode":"FT19310RH6P1","userName":"cntest001","realAmount":"11100","promotionCode":"11"}
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 71602357, responseTime: 20241004160854
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: a250b2eb7fe24fd68ad5fad43f05ac16844cc95f8f7edd09c937bbe4eb0c8b1d
+2024-10-04 16:08:54 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: a250b2eb7fe24fd68ad5fad43f05ac16844cc95f8f7edd09c937bbe4eb0c8b1d
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=71602357, responseTime=20241004160854, checkSum (truncated)...]
+2024-10-04 16:08:54 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:18:07 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 16:18:07 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41643 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:18:07 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:18:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 16:18:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 16:18:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:18:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:18:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:18:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:18:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:18:08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:18:08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:18:08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:18:08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 539 ms
+2024-10-04 16:18:08 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:18:08 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:18:08 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:18:08 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:18:08 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:18:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:18:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:18:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:18:08 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.213 seconds (process running for 1.48)
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@54f8392a
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@678d5314
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to JSON string: {"tokenKey":"1601353776839FT19310RH6P1","apiID":"restPayment","mobile":"0345225630","bankCode":"VNPAY","accountNo":"0001100014211002","payDate":"20200929112923","additionalData":"11","debitAmount":11200,"respCode":"00","respDesc":"SUCCESS","traceTransfer":"FT19310RH6P1","messageType":"1","checkSum":"07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4","orderCode":"FT19310RH6P1","userName":"cntest001","realAmount":"11100","promotionCode":"11"}
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 42664312, responseTime: 20241004161815
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 132f8d9e482af7b357603c47488f2d9f0a7b371b584ce71a564fd1636e00f323
+2024-10-04 16:18:15 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 132f8d9e482af7b357603c47488f2d9f0a7b371b584ce71a564fd1636e00f323
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=42664312, responseTime=20241004161815, checkSum (truncated)...]
+2024-10-04 16:18:15 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=, bankCode=VNPAY, accou (truncated)...]
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{mobile=must not be blank}]
+2024-10-04 16:18:24 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest) with 2 errors: [Field error in object 'paymentRequest' on field 'mobile': rejected value []; codes [Pattern.paymentRequest.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@40cc08b6,\d{10}]; default message [Mobile number must be 10 digits]] [Field error in object 'paymentRequest' on field 'mobile': rejected value []; codes [NotBlank.paymentRequest.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.mobile,mobile]; arguments []; default message [mobile]]; default message [must not be blank]] ]
+2024-10-04 16:18:24 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-04 16:20:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-04 16:20:35 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:20:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41643 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:20:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:20:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:20:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:20:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:20:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 99 ms
+2024-10-04 16:20:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:20:35 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:20:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:20:35 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:20:35 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:20:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:20:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.173 seconds (process running for 148.536)
+2024-10-04 16:20:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-04 16:23:02 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-04 16:23:02 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:23:02 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41643 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:23:02 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:23:02 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:23:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:23:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:23:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 94 ms
+2024-10-04 16:23:02 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController': Unsatisfied dependency expressed through field 'iPaymentService': No qualifying bean of type 'vn.vnpay.demo1_16092024.bean.service.IPaymentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-10-04 16:23:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-04 16:23:02 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-04 16:23:02 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field iPaymentService in vn.vnpay.demo1_16092024.bean.controller.PaymentController required a bean of type 'vn.vnpay.demo1_16092024.bean.service.IPaymentService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'vn.vnpay.demo1_16092024.bean.service.IPaymentService' in your configuration.
+
+2024-10-04 16:24:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 16:24:17 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41738 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:24:17 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:24:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:24:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:24:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:24:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:24:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+2024-10-04 16:24:17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:24:17 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:24:17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:24:17 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:24:17 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:24:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:24:18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:24:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:24:18 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.098 seconds (process running for 1.391)
+2024-10-04 16:24:21 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:24:21 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@910be7d
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4aba644a
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:24:21 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=, bankCode=VNPAY, accou (truncated)...]
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{mobile=Mobile number must be 10 digits}]
+2024-10-04 16:24:21 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest) with 2 errors: [Field error in object 'paymentRequest' on field 'mobile': rejected value []; codes [NotBlank.paymentRequest.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.mobile,mobile]; arguments []; default message [mobile]]; default message [must not be blank]] [Field error in object 'paymentRequest' on field 'mobile': rejected value []; codes [Pattern.paymentRequest.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@5f84d7d3,\d{10}]; default message [Mobile number must be 10 digits]] ]
+2024-10-04 16:24:21 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:33 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=64870906, responseTime=20241004162433, (truncated)...]
+2024-10-04 16:24:33 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:45 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=14775686, responseTime=20241004162445, (truncated)...]
+2024-10-04 16:24:45 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:24:46 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-04 16:24:46 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:24:46 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41738 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:24:46 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:24:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:24:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:24:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:24:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 122 ms
+2024-10-04 16:24:46 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:24:46 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:24:46 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:24:46 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:24:46 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:24:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:24:46 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.205 seconds (process running for 29.787)
+2024-10-04 16:24:46 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@21c57a73
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f02803b
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:24:46 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Converted request to JSON string: {"tokenKey":"1601353776839FT19310RH6P1","apiID":"restPayment","mobile":"0345225630","bankCode":"VNPAY","accountNo":"0001100014211002","payDate":"20200929112923","additionalData":"11","debitAmount":11200,"respCode":"00","respDesc":"SUCCESS","traceTransfer":"FT19310RH6P1","messageType":"1","checkSum":"07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4","orderCode":"FT19310RH6P1","userName":"cntest001","realAmount":"11100","promotionCode":"11"}
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:24:46 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 28760416, responseTime: 20241004162447
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 51ce3ce140dfdc93ace70fd3ffbaafae9835275055079d16089cdcb31877454e
+2024-10-04 16:24:47 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 51ce3ce140dfdc93ace70fd3ffbaafae9835275055079d16089cdcb31877454e
+2024-10-04 16:24:47 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:24:47 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=28760416, responseTime=20241004162447, checkSum (truncated)...]
+2024-10-04 16:24:47 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=qưeqeqeq, bankCode=VNPA (truncated)...]
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{mobile=Mobile number must be 10 digits}]
+2024-10-04 16:24:54 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest): [Field error in object 'paymentRequest' on field 'mobile': rejected value [qưeqeqeq]; codes [Pattern.paymentRequest.mobile,Pattern.mobile,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.mobile,mobile]; arguments []; default message [mobile],[Ljakarta.validation.constraints.Pattern$Flag;@5f84d7d3,\d{10}]; default message [Mobile number must be 10 digits]] ]
+2024-10-04 16:24:54 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{accountNo=must not be blank}]
+2024-10-04 16:25:04 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest): [Field error in object 'paymentRequest' on field 'accountNo': rejected value []; codes [NotBlank.paymentRequest.accountNo,NotBlank.accountNo,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.accountNo,accountNo]; arguments []; default message [accountNo]]; default message [must not be blank]] ]
+2024-10-04 16:25:04 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Validating bank code: VNPAY
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Converted request to JSON string: {"tokenKey":"1601353776839FT19310RH6P1","apiID":"restPayment","mobile":"0345225630","bankCode":"VNPAY","accountNo":"0001100014211002","payDate":"20200929112923","additionalData":"11","debitAmount":11200,"respCode":"00","respDesc":"SUCCESS","traceTransfer":"FT19310RH6P1","messageType":"1","checkSum":"07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4","orderCode":"FT19310RH6P1","userName":"cntest001","realAmount":"11100","promotionCode":"11"}
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 78054073, responseTime: 20241004162510
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: a6130c782ca4a9f0f10a31eee392318033d72d6afd8620e06d5ae53332f58c46
+2024-10-04 16:25:10 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: a6130c782ca4a9f0f10a31eee392318033d72d6afd8620e06d5ae53332f58c46
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=78054073, responseTime=20241004162510, checkSum (truncated)...]
+2024-10-04 16:25:10 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:28:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-04 16:28:45 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41805 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:28:45 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:28:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:28:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:28:46 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:28:46 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:28:46 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:28:46 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2024-10-04 16:28:46 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:28:46 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:28:46 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:28:46 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:28:46 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:28:46 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:28:46 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:28:46 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:28:46 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.136 seconds (process running for 1.394)
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7bdd1fb8
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@701c0b03
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:28:50 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Invalid checksum: 07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4. Expected: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=03, message=Invalid CheckSum, responseId=98995151, responseTime=20241004162850, (truncated)...]
+2024-10-04 16:28:50 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:25 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-04 16:29:25 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:29:25 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41805 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:29:25 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:29:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:29:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:29:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:29:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 122 ms
+2024-10-04 16:29:25 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:29:25 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:29:25 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:29:25 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:29:25 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:29:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:29:25 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.262 seconds (process running for 40.898)
+2024-10-04 16:29:25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@58577b48
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@56909e32
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:26 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 50607902, responseTime: 20241004162927
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: da8f660a80edceb49e79a8495c856b029fcaef1f817df824eeec55b5ba0a0ca0
+2024-10-04 16:29:27 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: da8f660a80edceb49e79a8495c856b029fcaef1f817df824eeec55b5ba0a0ca0
+2024-10-04 16:29:27 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:27 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=50607902, responseTime=20241004162927, checkSum (truncated)...]
+2024-10-04 16:29:27 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=qư (truncated)...]
+2024-10-04 16:29:32 [http-nio-8080-exec-3] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:32 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=qưeqweq, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:32 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:32 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:32 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Bank code not found: qưeqweq
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=02, message=Bank Code not found, responseId=09239329, responseTime=202410041629 (truncated)...]
+2024-10-04 16:29:32 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 13593536, responseTime: 20241004162936
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 10ee70c67fa8e947097d0c80ace9f8e398b17f26d2667c25b88fa9dda10bf003
+2024-10-04 16:29:36 [http-nio-8080-exec-4] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 10ee70c67fa8e947097d0c80ace9f8e398b17f26d2667c25b88fa9dda10bf003
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=13593536, responseTime=20241004162936, checkSum (truncated)...]
+2024-10-04 16:29:36 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=, mobile=0345225630, bankCode=VNPAY, accoun (truncated)...]
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{apiID=must not be blank}]
+2024-10-04 16:29:46 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest): [Field error in object 'paymentRequest' on field 'apiID': rejected value []; codes [NotBlank.paymentRequest.apiID,NotBlank.apiID,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.apiID,apiID]; arguments []; default message [apiID]]; default message [must not be blank]] ]
+2024-10-04 16:29:46 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 51189175, responseTime: 20241004162949
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 92a570520312ac648ba6f9c1afd93d35abef9f6672b93f2aef5eef8c1071fe0e
+2024-10-04 16:29:49 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 92a570520312ac648ba6f9c1afd93d35abef9f6672b93f2aef5eef8c1071fe0e
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=51189175, responseTime=20241004162949, checkSum (truncated)...]
+2024-10-04 16:29:49 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 69801258, responseTime: 20241004162950
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 178f2beae35c2b46bdf4c33b9bca2f90b3aa8cdd541c4683503797ab4896fa37
+2024-10-04 16:29:50 [http-nio-8080-exec-8] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 178f2beae35c2b46bdf4c33b9bca2f90b3aa8cdd541c4683503797ab4896fa37
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=69801258, responseTime=20241004162950, checkSum (truncated)...]
+2024-10-04 16:29:50 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 61469080, responseTime: 20241004162951
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: a64723fb8e530e837e4cc12e7d4cfe44e11be93b41b31b1eb0e429332d2410eb
+2024-10-04 16:29:51 [http-nio-8080-exec-9] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: a64723fb8e530e837e4cc12e7d4cfe44e11be93b41b31b1eb0e429332d2410eb
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=61469080, responseTime=20241004162951, checkSum (truncated)...]
+2024-10-04 16:29:51 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 82812845, responseTime: 20241004162952
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: f102f5ac8ccba54c865b7b7f2d546796b592821ebd937b0e1fff1e66b6307be1
+2024-10-04 16:29:52 [http-nio-8080-exec-10] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: f102f5ac8ccba54c865b7b7f2d546796b592821ebd937b0e1fff1e66b6307be1
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=82812845, responseTime=20241004162952, checkSum (truncated)...]
+2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
