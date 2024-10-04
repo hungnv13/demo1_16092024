@@ -20,11 +20,9 @@ public class PaymentController {
 
     private static final Logger logger = LoggerFactory.getLogger(PaymentController.class);
 
-    @Autowired
-    PaymentService paymentService;
+    @Autowired PaymentService paymentService;
 
-    @Autowired
-    BankConfig bankConfig;
+    @Autowired BankConfig bankConfig;
 
     @PostMapping("/process")
     public ResponseEntity<PaymentResponse> processPayment(@Valid @RequestBody PaymentRequest request) {

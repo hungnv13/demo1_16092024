@@ -4,34 +4,49 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import vn.vnpay.demo1_16092024.bean.constant.PaymentConstant;
 
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
-import java.security.MessageDigest;
+import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.UUID;
+import java.util.Random;
+
 
 public class PaymentUtils {
     private static final Logger logger = LoggerFactory.getLogger(PaymentUtils.class);
 
-    public static String encodeSha256(String data) throws NoSuchAlgorithmException {
-        logger.info("Start encoding data using SHA-256 for input: {}", data);
-        MessageDigest digest = MessageDigest.getInstance(PaymentConstant.ENCODESHA256);
-        byte[] hash = digest.digest(data.getBytes(StandardCharsets.UTF_8));
+    public static String encodeHmacSha256(String data, String secret) throws NoSuchAlgorithmException, InvalidKeyException {
+        logger.info("Start encoding data using HMAC SHA-256.");
+        Mac hmacSHA256 = Mac.getInstance(PaymentConstant.ENCODESHA256);
+        SecretKeySpec secretKeySpec = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8), "HmacSHA256");
+        hmacSHA256.init(secretKeySpec);
+
+        byte[] hash = hmacSHA256.doFinal(data.getBytes(StandardCharsets.UTF_8));
+
         StringBuilder hexString = new StringBuilder();
         for (byte hashedByte : hash) {
             String hex = Integer.toHexString(0xff & hashedByte);
-            if (1 == hex.length()) {
+            if (hex.length() == 1) {
                 hexString.append(PaymentConstant.ZERO_CHAR);
             }
             hexString.append(hex);
         }
-        logger.info("SHA-256 encoding complete. Resulting hash: {}", data);
-        return hexString.toString();
+
+        String checksum = hexString.toString();
+        logger.info("HMAC SHA-256 encoding complete. Resulting hash: {}", checksum);
+        return checksum;
     }
 
+
     public static String generateRandomId() {
-        return UUID.randomUUID().toString();
+        Random random = new Random();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < 8; i++) {
+            sb.append(random.nextInt(10));
+        }
+        return sb.toString();
     }
 
     public static String getCurrentTimestamp() {
