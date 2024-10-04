@@ -22,13 +22,11 @@ public class PaymentUtils {
         Mac hmacSHA256 = Mac.getInstance(PaymentConstant.ENCODESHA256);
         SecretKeySpec secretKeySpec = new SecretKeySpec(secret.getBytes(StandardCharsets.UTF_8), "HmacSHA256");
         hmacSHA256.init(secretKeySpec);
-
         byte[] hash = hmacSHA256.doFinal(data.getBytes(StandardCharsets.UTF_8));
-
         StringBuilder hexString = new StringBuilder();
         for (byte hashedByte : hash) {
             String hex = Integer.toHexString(0xff & hashedByte);
-            if (hex.length() == 1) {
+            if (1 == hex.length()) {
                 hexString.append(PaymentConstant.ZERO_CHAR);
             }
             hexString.append(hex);
