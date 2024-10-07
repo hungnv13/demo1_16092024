@@ -3807,3 +3807,379 @@ Consider defining a bean of type 'vn.vnpay.demo1_16092024.bean.service.IPaymentS
 2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
 2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=82812845, responseTime=20241004162952, checkSum (truncated)...]
 2024-10-04 16:29:52 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-04 16:42:35 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-04 16:42:35 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41805 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:42:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:42:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:42:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:42:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 199 ms
+2024-10-04 16:42:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:42:35 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:42:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:42:35 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:42:35 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:42:35 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:42:35 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.301 seconds (process running for 830.447)
+2024-10-04 16:42:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-04 16:42:36 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-04 16:42:36 [Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:36 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 41805 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-04 16:42:36 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-04 16:42:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-04 16:42:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-04 16:42:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2024-10-04 16:42:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-04 16:42:36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-04 16:42:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-04 16:42:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-04 16:42:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 83 ms
+2024-10-04 16:42:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-04 16:42:37 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-04 16:42:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-04 16:42:37 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-04 16:42:37 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-04 16:42:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-04 16:42:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-04 16:42:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-04 16:42:37 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.151 seconds (process running for 832.028)
+2024-10-04 16:42:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-07 09:45:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-07 09:45:36 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 54377 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 09:45:36 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 09:45:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-07 09:45:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 09:45:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 09:45:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 09:45:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 09:45:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 675 ms
+2024-10-07 09:45:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-07 09:45:37 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-07 09:45:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-07 09:45:37 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-07 09:45:37 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-07 09:45:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 09:45:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 09:45:37 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.485 seconds (process running for 1.852)
+2024-10-07 09:45:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-07 09:45:57 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 54386 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 09:45:57 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 09:45:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 09:45:58 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 09:45:58 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 09:45:58 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 561 ms
+2024-10-07 09:45:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-07 09:45:58 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-07 09:45:58 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-07 09:45:58 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-07 09:45:58 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-07 09:45:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 09:45:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 09:45:59 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.308 seconds (process running for 1.886)
+2024-10-07 10:31:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-07 10:31:47 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 55190 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 10:31:47 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 10:31:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-07 10:31:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-07 10:31:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 10:31:47 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 10:31:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-10-07 10:31:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 10:31:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:31:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 10:31:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 10:31:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 10:31:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 605 ms
+2024-10-07 10:31:48 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-07 10:31:48 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-07 10:31:48 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-07 10:31:48 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-07 10:31:48 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-07 10:31:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-07 10:31:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:31:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 10:31:48 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.342 seconds (process running for 1.707)
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@21e71e07
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@77079acc
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:31:52 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-07 10:31:52 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 69262037, responseTime: 20241007103153
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: b5f3a8bbd4e28ef5f6b7e739bce508b1c1465b9aa81d6784591eb769009ff0a2
+2024-10-07 10:31:53 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: b5f3a8bbd4e28ef5f6b7e739bce508b1c1465b9aa81d6784591eb769009ff0a2
+2024-10-07 10:31:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:31:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=69262037, responseTime=20241007103153, checkSum (truncated)...]
+2024-10-07 10:31:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 86940774, responseTime: 20241007103154
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 3d42f4e78bda6cee97338d0c3cea04428fd7d8be1e1bc42f37754b5cf1a3a966
+2024-10-07 10:31:54 [http-nio-8080-exec-3] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 3d42f4e78bda6cee97338d0c3cea04428fd7d8be1e1bc42f37754b5cf1a3a966
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=86940774, responseTime=20241007103154, checkSum (truncated)...]
+2024-10-07 10:31:54 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=, mobile=0345225630, bankCode=VNPAY, accoun (truncated)...]
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler vn.vnpay.demo1_16092024.bean.handler.GlobalExceptionHandler#handleValidationExceptions(MethodArgumentNotValidException)
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{apiID=must not be blank}]
+2024-10-07 10:31:59 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<vn.vnpay.demo1_16092024.bean.dto.response.PaymentResponse> vn.vnpay.demo1_16092024.bean.controller.PaymentController.processPayment(vn.vnpay.demo1_16092024.bean.dto.request.PaymentRequest): [Field error in object 'paymentRequest' on field 'apiID': rejected value []; codes [NotBlank.paymentRequest.apiID,NotBlank.apiID,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [paymentRequest.apiID,apiID]; arguments []; default message [apiID]]; default message [must not be blank]] ]
+2024-10-07 10:31:59 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-07 10:32:06 [http-nio-8080-exec-5] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-07 10:32:06 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAaY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:32:06 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-07 10:32:06 [http-nio-8080-exec-5] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-07 10:32:06 [http-nio-8080-exec-5] INFO  v.v.d.bean.service.PaymentService - Bank code not found: VNPAaY
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=02, message=Bank Code not found, responseId=29508920, responseTime=202410071032 (truncated)...]
+2024-10-07 10:32:06 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 26158571, responseTime: 20241007103209
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: a16555e0a21c09602e084fbdfeafcf925b016f7e6459c40a3f13c303e7a48656
+2024-10-07 10:32:09 [http-nio-8080-exec-7] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: a16555e0a21c09602e084fbdfeafcf925b016f7e6459c40a3f13c303e7a48656
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=26158571, responseTime=20241007103209, checkSum (truncated)...]
+2024-10-07 10:32:09 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-10-07 10:33:57 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-07 10:33:57 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:33:57 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 55190 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 10:33:57 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 10:33:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:33:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 10:33:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 10:33:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 207 ms
+2024-10-07 10:33:57 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-07 10:33:57 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-07 10:33:57 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-07 10:33:57 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-07 10:33:57 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-07 10:33:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 10:33:57 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 0.32 seconds (process running for 130.532)
+2024-10-07 10:33:57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-07 10:34:24 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2024-10-07 10:34:24 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:34:24 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 55190 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 10:34:24 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 10:34:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:34:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 10:34:24 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 10:34:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 100 ms
+2024-10-07 10:34:24 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController': Unsatisfied dependency expressed through field 'iPaymentService': Error creating bean with name 'paymentService' defined in file [/Users/hung/Documents/test/demo1_16092024/target/classes/vn/vnpay/demo1_16092024/bean/service/PaymentService.class]: Post-processing of merged bean definition failed
+2024-10-07 10:34:24 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-10-07 10:34:24 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-07 10:34:24 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'paymentController': Unsatisfied dependency expressed through field 'iPaymentService': Error creating bean with name 'paymentService' defined in file [/Users/hung/Documents/test/demo1_16092024/target/classes/vn/vnpay/demo1_16092024/bean/service/PaymentService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at vn.vnpay.demo1_16092024.bean.ApplicationRun.main(ApplicationRun.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [/Users/hung/Documents/test/demo1_16092024/target/classes/vn/vnpay/demo1_16092024/bean/service/PaymentService.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 25 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [vn.vnpay.demo1_16092024.bean.service.PaymentService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6c3fa6ec]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:431)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:412)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:312)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1103)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:574)
+	... 34 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: vn/vnpay/demo1_16092024/bean/utils/PaymentValidateUtils
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: vn.vnpay.demo1_16092024.bean.utils.PaymentValidateUtils
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 44 common frames omitted
+2024-10-07 10:35:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-07 10:35:10 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Starting ApplicationRun using Java 17.0.9 with PID 55276 (/Users/hung/Documents/test/demo1_16092024/target/classes started by hung in /Users/hung/Documents/test/demo1_16092024)
+2024-10-07 10:35:10 [restartedMain] INFO  v.v.d.bean.ApplicationRun - No active profile set, falling back to 1 default profile: "default"
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-07 10:35:10 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:35:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-07 10:35:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-07 10:35:10 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-07 10:35:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 625 ms
+2024-10-07 10:35:11 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+2024-10-07 10:35:11 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-07 10:35:11 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-07 10:35:11 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-07 10:35:11 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-07 10:35:11 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-07 10:35:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 10:35:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 10:35:11 [restartedMain] INFO  v.v.d.bean.ApplicationRun - Started ApplicationRun in 1.386 seconds (process running for 1.709)
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3ca0b332
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@69fadfad
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/process", parameters={}
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to vn.vnpay.demo1_16092024.bean.controller.PaymentController#processPayment(PaymentRequest)
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VN (truncated)...]
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.b.controller.PaymentController - Received payment request
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Starting input data validation for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - Validating fields for PaymentRequest...
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.b.utils.PaymentValidateUtils - All fields in PaymentRequest are valid.
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Bank found for code: VNPAY. Proceeding with checksum validation.
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculating checksum for request: PaymentRequest(tokenKey=1601353776839FT19310RH6P1, apiID=restPayment, mobile=0345225630, bankCode=VNPAY, accountNo=0001100014211002, payDate=20200929112923, additionalData=11, debitAmount=11200, respCode=00, respDesc=SUCCESS, traceTransfer=FT19310RH6P1, messageType=1, checkSum=07cb3cb1adce3aad292fc722213e0ce493d12e25c2761d8d5424aef25d5dbec4, orderCode=FT19310RH6P1, userName=cntest001, realAmount=11100, promotionCode=11)
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating request checksum for PaymentRequest with mobile: 0345225630
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated request checksum: 8d89e59d6e2eb59a3190c4baa85e7f0ac62c000dbb1b9fe8af886ff29383311b
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Writing data to Redis for bankCode: VNPAY, tokenKey: 1601353776839FT19310RH6P1
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Attempting to put data into Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.RedisUtils - Data successfully stored in Redis for tokenKey: 1601353776839FT19310RH6P1, bankCode: VNPAY
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Request successfully processed for bankCode: VNPAY. Returning success response.
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Start calculating response checksum for code: 00, message: Success, responseId: 30868858, responseTime: 20241007103523
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - Start encoding data using HMAC SHA-256.
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.utils.PaymentUtils - HMAC SHA-256 encoding complete. Resulting hash: 2c35832002410807abd494f85df18a5eb99bd21b0a2a41edbfdacbcf5e1d0a9a
+2024-10-07 10:35:23 [http-nio-8080-exec-2] INFO  v.v.d.bean.service.PaymentService - Calculated response checksum: 2c35832002410807abd494f85df18a5eb99bd21b0a2a41edbfdacbcf5e1d0a9a
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [PaymentResponse(code=00, message=Success, responseId=30868858, responseTime=20241007103523, checkSum (truncated)...]
+2024-10-07 10:35:23 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
