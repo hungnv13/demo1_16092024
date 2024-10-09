@@ -55,11 +55,23 @@ public class PaymentService implements IPaymentService {
             return buildErrorResponse(PaymentErrorCode.INVALID_CHECKSUM);
         }
 
-        String requestAsString = convertRequestToJson(request);
-        if (null == requestAsString) {
+//        String requestAsString = convertRequestToJson(request);
+//        if (null == requestAsString) {
+//            return buildErrorResponse(PaymentErrorCode.SYSTEM_ERROR);
+//        }
+//
+//        logger.info("Writing data to Redis for bankCode: {}, tokenKey: {}", request.getBankCode(), request.getTokenKey());
+//        if (!putDataRedis.putData(request.getBankCode(), request.getTokenKey(), requestAsString)) {
+//            logger.info("Failed to write data to Redis for tokenKey: {}", request.getTokenKey());
+//            return buildErrorResponse(PaymentErrorCode.SYSTEM_ERROR);
+//        }
+        String requestAsString;
+        try{
+            requestAsString = objectMapper.writeValueAsString(request);
+        }catch(JsonProcessingException e){
+            logger.error("Error converting request to JSON: {}", e.getMessage());
             return buildErrorResponse(PaymentErrorCode.SYSTEM_ERROR);
         }
-
         logger.info("Writing data to Redis for bankCode: {}, tokenKey: {}", request.getBankCode(), request.getTokenKey());
         if (!putDataRedis.putData(request.getBankCode(), request.getTokenKey(), requestAsString)) {
             logger.info("Failed to write data to Redis for tokenKey: {}", request.getTokenKey());
