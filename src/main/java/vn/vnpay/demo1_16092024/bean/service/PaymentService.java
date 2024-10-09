@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Optional;
@@ -50,21 +51,11 @@ public class PaymentService implements IPaymentService {
         logger.info("Bank found for code: {}. Proceeding with checksum validation.", request.getBankCode());
 
         String calculatedCheckSum = calculateChecksum(request, bank);
-        if (null == calculatedCheckSum || calculatedCheckSum.equals(request.getCheckSum())) {
+        if (calculatedCheckSum == null || !calculatedCheckSum.equals(request.getCheckSum())) {
             logger.info("Invalid checksum: {}. Expected: {}", request.getCheckSum(), calculatedCheckSum);
             return buildErrorResponse(PaymentErrorCode.INVALID_CHECKSUM);
         }
 
-//        String requestAsString = convertRequestToJson(request);
-//        if (null == requestAsString) {
-//            return buildErrorResponse(PaymentErrorCode.SYSTEM_ERROR);
-//        }
-//
-//        logger.info("Writing data to Redis for bankCode: {}, tokenKey: {}", request.getBankCode(), request.getTokenKey());
-//        if (!putDataRedis.putData(request.getBankCode(), request.getTokenKey(), requestAsString)) {
-//            logger.info("Failed to write data to Redis for tokenKey: {}", request.getTokenKey());
-//            return buildErrorResponse(PaymentErrorCode.SYSTEM_ERROR);
-//        }
         String requestAsString;
         try{
             requestAsString = objectMapper.writeValueAsString(request);
