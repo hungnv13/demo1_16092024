@@ -100,14 +100,14 @@ public class PaymentService implements IPaymentService {
         }
     }
 
-    private String convertRequestToJson(PaymentRequest request) {
-        try {
-            return objectMapper.writeValueAsString(request);
-        } catch (JsonProcessingException e) {
-            logger.error("Error converting request to JSON string", e);
-            return null;
-        }
-    }
+//    private String convertRequestToJson(PaymentRequest request) {
+//        try {
+//            return objectMapper.writeValueAsString(request);
+//        } catch (JsonProcessingException e) {
+//            logger.error("Error converting request to JSON string", e);
+//            return null;
+//        }
+//    }
 
     @Override
     public String calculateRequestCheckSum(PaymentRequest request, String privateKey) throws NoSuchAlgorithmException, InvalidKeyException {
